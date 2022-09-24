@@ -29,16 +29,13 @@ main {
     -o-border-radius: 5px;
     overflow: hidden;
 }
-
 .desk{
     max-width: 320px;
 }
-
 .mob{
     display: none;
-    width: 320px;
+    max-width: 375px;
 }
-
 .product{
     background-color: rgb(255, 255, 255);
     padding: 30px;
@@ -120,7 +117,6 @@ button:hover{
    }
    .mob{
         display: block;
-        min-width: 375px;
    }
    h1{
         font-size: 13px;
